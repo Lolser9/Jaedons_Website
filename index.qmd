@@ -1,0 +1,13 @@
+---
+title: "Home"
+format: html
+---
+
+<div id="three-root" style="position: fixed; inset: 0; overflow: hidden;"></div>
+
+<div style="position: fixed; top: 14px; left: 14px; z-index: 10; display:flex; gap:10px;">
+  <button id="toggleBtn">Switch Scene</button>
+  <div id="sceneLabel" style="color:white; opacity:.8;">Scene: ...</div>
+</div>
+
+<script type="module" src="./main.js"></script>

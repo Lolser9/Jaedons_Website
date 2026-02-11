@@ -1,0 +1,18 @@
+# Big downloads/installers
+*.deb
+*.dmg
+*.msi
+*.zip
+
+# Quarto output (choose ONE approach; see below)
+_site/
+# docs/
+
+# Node
+node_modules/
+
+# OS/editor
+.DS_Store
+.vscode/
+*.log
+EOF

@@ -1,0 +1,18 @@
+project:
+  type: website
+  resources:
+    - assets/resume.pdf
+
+website:
+  title: "Lance"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: resume.qmd
+        text: Resume
+
+format:
+  html:
+    theme: darkly
+    toc: false
