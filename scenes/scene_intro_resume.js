@@ -358,9 +358,8 @@ export function createIntroResumeScene({ THREE, scene, camera, renderer }) {
         {
           title: "Engineering / Trading",
           bullets: [
-            "Designs and implements purpose-built stock trading bots (24/7)",
+            "Designed and implemented purpose-built stock trading bots (24/7)",
             "Analyzes market trends using trading platforms and software",
-            "Manages and elevates portfolios to outperform benchmarks",
           ],
         },
         { title: "Tools", bullets: ["Google Workspace", "MS 365 Suite"] },
@@ -372,21 +371,21 @@ export function createIntroResumeScene({ THREE, scene, camera, renderer }) {
       title: "Experience",
       cards: [
         {
-          title: "Rust • Arbitrage & Trading",
+          title: "Rust / Arbitrage & Trading",
           bullets: [
             "Built a Rust program comparing prices across Market.csgo and Steam Community Market to resell CS:GO skins for profit.",
             "Created an open-source Rust library to make TD Ameritrade's API more accessible (repo: tdameritrade_rust).",
           ],
         },
         {
-          title: "Markets • Portfolio / Monitoring",
+          title: "Markets & Portfolio / Monitoring",
           bullets: [
             "Analyzed and monitored local and international markets for trading opportunities.",
             "Managed and reviewed portfolio performance to optimize returns.",
           ],
         },
         {
-          title: "Automation • Python",
+          title: "Automation / Python",
           bullets: [
             "Automated AI Reddit story creation to upload to YouTube.",
             "Built multiple web crawlers using Python.",
@@ -586,17 +585,16 @@ export function createIntroResumeScene({ THREE, scene, camera, renderer }) {
   function renderProjects() {
     panelBody.innerHTML = `
       <div class="rs-h1">Projects</div>
-      <div class="rs-muted">A couple builds I’m proud of (more coming soon).</div>
 
       <div class="rs-links">
         <a class="rs-link" href="https://github.com/Lolser9/CeasarCipherProject" target="_blank" rel="noreferrer">
           <span class="t">CeasarCipherProject</span>
-          <span class="d">Classic cipher implementation + tooling around encoding/decoding. Simple on purpose — clean and readable.</span>
+          <span class="d">Classic cipher implementation + Gui</span>
         </a>
 
         <a class="rs-link" href="https://github.com/Lolser9/tdameritrade_rust" target="_blank" rel="noreferrer">
           <span class="t">tdameritrade_rust</span>
-          <span class="d">Rust library to make TD Ameritrade’s API easier to use — focused on a developer-friendly interface.</span>
+          <span class="d">Rust library to make TD Ameritrade’s API easier to use</span>
         </a>
       </div>
     `;
