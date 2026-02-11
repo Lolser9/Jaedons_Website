@@ -615,7 +615,7 @@ export function createIntroResumeScene({ THREE, scene, camera, renderer }) {
               that try not to fall apart the second reality touches it.
             </p>
             <p>
-              My favorite projects are in the realm of decision-making —
+              My favorite projects are in the realm of decision-making:
               anything involving markets, forecasting, optimization, etc.
             </p>
             <div class="rs-rule"></div>
