@@ -1,7 +1,9 @@
 project:
   type: website
   resources:
-    - assets/resume.pdf
+    - main.js
+    - scenes/
+    - assets/
 
 website:
   title: "Lance"
