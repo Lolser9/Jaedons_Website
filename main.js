@@ -139,7 +139,7 @@ function start() {
       active = createSceneByKey(keyName);
     } catch (err) {
       console.error("[Scene] creation failed:", err);
-      active = { name: "ERROR (see console)", update: () => {}, dispose: () => {} };
+      active = { name: "ERROR (see console)", update: () => { }, dispose: () => { } };
     }
 
     // 4) update UI label

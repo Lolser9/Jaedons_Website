@@ -3,10 +3,15 @@ title: "Home"
 format: html
 ---
 
+<style>
+  html, body { margin: 0; height: 100%; overflow: hidden; }
+</style>
+
 <div id="three-root" style="position: fixed; inset: 0; overflow: hidden;"></div>
 
-<div style="position: fixed; top: 14px; left: 14px; z-index: 10; display:flex; gap:10px;">
+<div style="position: fixed; top: 14px; left: 14px; z-index: 99999; display:flex; gap:10px;">
   <button id="toggleBtn">Switch Scene</button>
+  <button id="lightBtn">Lights: Off</button>
   <div id="sceneLabel" style="color:white; opacity:.8;">Scene: ...</div>
 </div>
 
