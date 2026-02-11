@@ -1,18 +1,32 @@
 ---
 title: "Home"
 format: html
+page-layout: full
 ---
 
 <style>
+  /* Fullscreen, no scroll */
   html, body { margin: 0; height: 100%; overflow: hidden; }
+
+  /* Hide Quarto's navbar/header ONLY on this page */
+  header, nav, .navbar, #quarto-header { display: none !important; }
+
+  /* Remove Quarto content padding/margins so canvas truly fills */
+  main.content, .content, #quarto-content, .page-columns {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: none !important;
+  }
+
+  /* Where Three mounts */
+  #three-root {
+    position: fixed;
+    inset: 0;
+    overflow: hidden;
+    z-index: 0;
+  }
 </style>
 
-<div id="three-root" style="position: fixed; inset: 0; overflow: hidden;"></div>
-
-<div style="position: fixed; top: 14px; left: 14px; z-index: 99999; display:flex; gap:10px;">
-  <button id="toggleBtn">Switch Scene</button>
-  <button id="lightBtn">Lights: Off</button>
-  <div id="sceneLabel" style="color:white; opacity:.8;">Scene: ...</div>
-</div>
+<div id="three-root"></div>
 
 <script type="module" src="./main.js"></script>

@@ -1,12 +1,13 @@
 project:
   type: website
+  output-dir: docs
   resources:
     - main.js
     - scenes/
     - assets/
 
 website:
-  title: "Lance"
+  title: "My Portfolio"
   navbar:
     left:
       - href: index.qmd
