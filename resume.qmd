@@ -1,0 +1,14 @@
+---
+title: "Resume"
+format: html
+---
+
+<div style="height: 92vh; border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; overflow: hidden;">
+  <iframe src="./assets/resume.pdf#view=FitH"
+          style="width:100%; height:100%; border:0;"
+          title="Resume PDF"></iframe>
+</div>
+
+<div style="margin-top:12px;">
+  <a href="./assets/resume.pdf" download>Download PDF</a>
+</div>

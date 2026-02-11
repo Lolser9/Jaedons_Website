@@ -16,3 +16,6 @@ node_modules/
 .vscode/
 *.log
 EOF
+
+/.quarto/
+**/*.quarto_ipynb
